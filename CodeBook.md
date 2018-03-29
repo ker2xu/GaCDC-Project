@@ -1,6 +1,6 @@
 # Code Book
 =================
-This is a Code Book for tidy_set_of_step5.csv, the csv file contains two values "subject.id", "activity.name" and those values who have substring like "[Mm]ean" or "[Ss]td".
+This is a Code Book for tidy_set_of_step5.txt, the txt file contains two values "subject.id", "activity.name" and those values who have substring like "[Mm]ean" or "[Ss]td".
 All values names are listed at the end.
 =================
 

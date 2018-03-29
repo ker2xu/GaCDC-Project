@@ -28,4 +28,4 @@ data_set <- rename(data_set, activity.name = activity.id)
 by_subject_id_and_activity_name <- group_by(data_set, subject.id, activity.name) %>%
   summarise_all(mean)
 
-write.csv(by_subject_id_and_activity_name, file = "tidy_set_of_step5.csv", quote = F, row.names = F)
+write.table(by_subject_id_and_activity_name, file = "tidy_set_of_step5.txt", row.names = F)
